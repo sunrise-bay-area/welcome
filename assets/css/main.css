@@ -1,12 +1,16 @@
 body {
-  color: #fff
+  color: #fff;
+  background-color: #343A40;
 }
 
 h1 {
   color: #ffde16;
 }
+
 h2 {
   color: #ffde16;
+  margin-top: 1em;
+  margin-bottom: .75em;
 }
 
 a {
@@ -17,7 +21,8 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #ffde16;
+  text-decoration: none;
+  color: rgba(255, 222, 22, 0.6);
 }
 
 .masthead {
@@ -54,10 +59,12 @@ a:hover, a:focus, a:active {
   background-color: rgba(30, 30, 30, 0.4);
 }
 
-@media (min-width: 992px) {
-  .masthead h1 {
-    font-size: 5.5rem;
-  }
+.content-section {
+    width: 60%;
+}
+
+.container: {
+    width: 60%;
 }
 
 .bottom-right-corner {
@@ -68,25 +75,40 @@ a:hover, a:focus, a:active {
   padding-bottom: 1.5em;
   padding-right: 1.5em;
 }
+@media (min-width: 992px) {
+  .masthead h1 {
+    font-size: 5.5rem;
+  }
+  .content-section {
+      width: 90%;
+  }
+  .container {
+      width: 90%;
+  }
+  .bottom-right-corner {
+      width: 80%;
+  }
+}
 
-footer.footer {
+
+.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-footer.footer .social-link {
+.footer .social-link {
   display: block;
   height: 4rem;
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #333;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-footer.footer .social-link:hover {
-  background-color: #155d74;
+.footer .social-link:hover {
+  background-color: #666;
   text-decoration: none;
 }
 
