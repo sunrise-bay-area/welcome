@@ -94,7 +94,7 @@ p {
   }
 }
 
-@media screen and (orientation:landscape) {
+@media screen and (orientation:landscape) and (max-width: 600px) {
   #title-text {
     padding-bottom: 40vh !important;
   }
