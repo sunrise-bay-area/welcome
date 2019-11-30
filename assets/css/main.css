@@ -7,6 +7,7 @@ h1, h2 {
   color: #ffde16;
   text-align: center;
   margin-top: 2em;
+  margin-bottom: 1.5em;
 }
 
 h3 {
@@ -38,6 +39,7 @@ a:hover, a:focus, a:active {
 p {
   text-align: justify;
   font-size: 1.25rem;
+  margin-bottom: 2em;
 }
 
 .video-container {
@@ -85,6 +87,10 @@ p {
   #title-text {
     font-size: 10vw;
     margin: auto;
+  }
+
+  .container {
+    width: 90%;
   }
 }
 
