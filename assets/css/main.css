@@ -1,12 +1,18 @@
 body {
-  color: #fff
+  color: #fff;
+  background-color: #333;
 }
 
-h1 {
+h1, h2 {
   color: #ffde16;
+  text-align: center;
+  margin-top: 2em;
 }
-h2 {
-  color: #ffde16;
+
+h3 {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 1.5rem;
 }
 
 a {
@@ -20,6 +26,36 @@ a:hover, a:focus, a:active {
   color: #ffde16;
 }
 
+.center {
+  text-align: center;
+}
+
+
+.container {
+  width: 66%;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.25rem;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -29,17 +65,10 @@ a:hover, a:focus, a:active {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background-position: center center;
+  background-image: linear-gradient(#ccc, #999), url("../2019-08-24-West-Summit.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.masthead::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  filter: contrast(120%), brightness(60%);
-  background-image: url("../2019-08-24-West-Summit.jpg");
+  background-blend-mode: darken;
 }
 
 .masthead h1 {
@@ -47,11 +76,11 @@ a:hover, a:focus, a:active {
   margin: 0;
   padding: 0;
   color: white;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .masthead h1 span {
-  background-color: rgba(30, 30, 30, 0.4);
+  /*background-color: rgba(255, 222, 22, 0.5);*/
 }
 
 @media (min-width: 992px) {
@@ -60,7 +89,7 @@ a:hover, a:focus, a:active {
   }
 }
 
-.bottom-right-corner {
+#title-text {
   position: absolute;
   width: 66%;
   bottom: 0;
@@ -69,24 +98,29 @@ a:hover, a:focus, a:active {
   padding-right: 1.5em;
 }
 
-footer.footer {
+.copyright {
+  font-size: .75rem;
+  color: 
+}
+
+.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-footer.footer .social-link {
+.footer .social-link {
   display: block;
   height: 4rem;
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #666;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-footer.footer .social-link:hover {
-  background-color: #155d74;
+.footer .social-link:hover {
+  background-color: #ccc;
   text-decoration: none;
 }
 
