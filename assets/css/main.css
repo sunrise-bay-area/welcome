@@ -31,7 +31,6 @@ a:hover, a:focus, a:active {
   text-align: center;
 }
 
-
 .container {
   width: 66%;
 }
@@ -80,23 +79,24 @@ p {
   line-height: 1.5;
 }
 
-.masthead h1 span {
-  /*background-color: rgba(255, 222, 22, 0.5);*/
-}
-
 @media (min-width: 992px) {
   .masthead h1 {
     font-size: 5.5rem;
+  }
+
+  #title-text {
+    width: 90%;
   }
 }
 
 #title-text {
   position: absolute;
-  width: 66%;
   bottom: 0;
   right: 0;
-  padding-bottom: 1.5em;
-  padding-right: 1.5em;
+  padding-bottom: .5em;
+  padding-right: .5em;
+  text-align: right;
+  width: 66%;
 }
 
 .copyright {
