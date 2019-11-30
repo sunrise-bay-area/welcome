@@ -23,7 +23,8 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #ffde16;
+  color: #eee;
+  text-decoration: none;
 }
 
 .center {
