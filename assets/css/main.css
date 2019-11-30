@@ -74,17 +74,23 @@ p {
 }
 
 .masthead h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
   color: white;
   line-height: 1.5;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   #title-text {
     font-size: 10vw;
     margin: auto;
+  }
+}
+
+@media screen and (orientation:landscape) {
+  #title-text {
+    padding-bottom: 40vh !important;
   }
 }
 
@@ -92,8 +98,8 @@ p {
   position: absolute;
   bottom: 0;
   right: 0;
-  padding-bottom: .5em;
-  padding-right: .5em;
+  padding-bottom: 5vh;
+  padding-right: 5vw;
   text-align: right;
   width: 66%;
 }
