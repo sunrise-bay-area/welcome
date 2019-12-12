@@ -80,7 +80,6 @@ p {
   margin: 0;
   padding: 0;
   color: white;
-  line-height: 1.5;
 }
 
 @media screen and (max-width: 600px) {
