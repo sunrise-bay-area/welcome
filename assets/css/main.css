@@ -69,7 +69,7 @@ p {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background-position: center center;
-  background-image: linear-gradient(#ccc, #999), url("../2019-08-24-West-Summit.jpg");
+  background-image: linear-gradient(#fff, #999), url("../2019-08-24-West-Summit.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
