@@ -1,6 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap);
+
+:root {
+  --primary-color: #FFDE16;
+  --secondary-color: #E3EDDF;
+  --base-primary-color: #33342E;
+  --base-secondary-color: #33342E;
+  --font: 'Source Sans Pro', serif;
+}
+
 body {
   color: #fff;
   background-color: #333;
+  font-family: 'Source Sans Pro', serif;
 }
 
 h1, h2 {
@@ -8,6 +19,9 @@ h1, h2 {
   text-align: center;
   margin-top: 2em;
   margin-bottom: 1.5em;
+  font-family: 'Source Sans Pro', serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 h3 {
