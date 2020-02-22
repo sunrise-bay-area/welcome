@@ -69,10 +69,11 @@ p {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background-position: center center;
-  background-image: linear-gradient(#fff, #999), url("../2019-08-24-West-Summit.jpg");
+  background-image: radial-gradient(#fff, #333), url("../splashpage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
+  filter: grayscale(100%) brightness(70%);
 }
 
 .masthead h1 {
