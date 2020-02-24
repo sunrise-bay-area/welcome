@@ -117,9 +117,6 @@ p {
     }
 }
 
-#title-text {
-}
-
 .copyright {
     font-size: .8rem;
     color: #999;
@@ -154,15 +151,15 @@ p {
     border-color: var(--primary-color) !important;
     color: var(--base-primary-color) !important;
 }
+/* For use at a later time... */
+/*.btn-secondary {*/
+/*    background-color: #ecb807 !important;*/
+/*    border-color: #ecb807 !important;*/
+/*    color: #fff !important;*/
+/*}*/
 
-.btn-secondary {
-    background-color: #ecb807 !important;
-    border-color: #ecb807 !important;
-    color: #fff !important;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active,
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active
+/*.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active */ {
     filter: brightness(85%);
 }
 
