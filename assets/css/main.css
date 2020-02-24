@@ -58,6 +58,11 @@ a:hover, a:focus, a:active {
     background-color: var(--primary-color);
 }
 
+.btn-sunrise-primary a {
+    color: inherit;
+    border-bottom: none;
+}
+
 p {
     text-align: justify;
     font-size: 1.25rem;
