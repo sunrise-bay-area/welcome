@@ -96,7 +96,6 @@ p {
 
 .masthead h1 {
     font-size: 4rem;
-    backdrop-filter: blur(3px);
 }
 
 @media screen and (max-width: 600px) {
