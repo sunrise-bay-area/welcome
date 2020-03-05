@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap);
 
 :root {
     --primary-color: #FFDE16;
@@ -96,7 +96,6 @@ p {
 
 .masthead h1 {
     font-size: 4rem;
-    backdrop-filter: blur(3px);
 }
 
 @media screen and (max-width: 600px) {
@@ -169,7 +168,7 @@ p {
 
 .btn {
     box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .btn a {
